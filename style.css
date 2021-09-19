@@ -1,0 +1,293 @@
+
+.image{
+    width: 100%;
+    position: relative;
+    background-position: center;
+    height: auto;
+}
+.container1{
+    position:relative ;
+    
+}
+#btn1{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+
+}
+#btn2{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  
+}
+.para{
+    width: 30%;
+    color: white;
+    position: absolute;
+    top: 35%;
+    margin-left: 1.5rem;
+    left: 7.5%; 
+   
+}
+.heading1{
+    text-align: center;
+    text-decoration-color: black;
+    font-size: 70px;
+    padding: 30px;
+
+}
+.text1{
+    width: 300px;
+    position: absolute;
+    left: 20%;
+
+}
+.img2{
+    position: absolute;
+    right: 20%;
+    width: 200px;
+    height: 200px;
+}
+.more{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    margin-top: 250px;
+    
+}
+.card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    width: 250px;
+}
+.heading2{
+   margin-top: 65%;
+   text-align: center;
+    
+}
+
+.pr1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.card-img-top{
+    width: 300px;
+    height: 200px;
+}
+#button1{
+    display: flex;
+    justify-content: center;
+}
+.heading3{
+    
+    text-align: center;
+     
+ }
+.price{
+    display: flex;
+    justify-content: center;
+}
+.heading3{
+    text-align: center;
+}
+.margin{
+    margin-left: 10%;
+}
+.videocontainer h1 {
+    text-align: center;
+    color: white;
+}
+
+.videocontainer {
+    width: 100%;
+    padding: 30px;
+    background-color: blue;
+}
+
+.teamcontainer {
+    padding: 40px;
+    /* width: 40%; */
+}
+
+.teamcontainer h1 {
+    text-align: center;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    width: 43%;
+    margin: auto;
+    margin-top: 50px;
+    /* margin: 100px; */
+}
+
+.members img {
+    margin: 30px 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.members p {
+    text-align: center;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.role {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+#mem-1 {
+    position: relative;
+}
+
+#mem-2 {
+    position: relative;
+}
+
+#mem-3 {
+    position: relative;
+}
+
+#mem-4 {
+    position: relative;
+}
+
+#mem-5 {
+    position: relative;
+}
+
+#mem-6 {
+    position: relative;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    
+    border-radius: 50%;
+    transform: translate(-50%, -67%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* slider */
+.slider{
+	max-width: 700px;
+	border:10px solid  #29a8e2;
+	margin:80px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.slider .left-slide,.slider .right-slide{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #444444;
+  border-radius: 50%;
+  color:#ffffff;
+  font-size: 20px;
+  top:50%;
+  cursor: pointer;
+  margin-top: -20px;
+  text-align: center;
+  line-height: 40px;
+  
+}
+.slider .left-slide:hover,.slider .right-slide:hover{
+ box-shadow: 0px 0px 10px black;
+ background-color: #29a8e2;
+}
+
+.slider .left-slide{
+	left: 30px;
+}
+.slider .right-slide{
+	right: 30px;
+}
+.slider .slider-items .item img{
+	max-width: 100%;
+	display: block;
+	animation:zoom 1s ease;
+}
+
+@keyframes zoom{
+	0%{transform: scale(2);opacity: 0}
+	50%{transform: scale(2);}
+	100%{transform: scale(1);opacity:1}
+}
+.slider .slider-items .item{
+	display: none;
+	position: relative;
+}
+.slider .slider-items .item .caption{
+position: absolute;
+width: 100%;
+height: 60px;
+bottom: 0px;
+left: 0px;
+background-color: rgba(0,0,0,.5);
+line-height: 60px;
+text-align: center;
+color: #ffffff;
+font-size: 30px;
+
+}
+
+.slider .slider-items .item.active{
+	display: block;
+}
+.row{
+    display: flex;
+    justify-content: center
+}
+.end {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.endcards {
+    width: 20%;
+    text-align: center;
+    padding: 10px 100px;
+}
+
+.endcards p {
+    margin-bottom: 10px;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logos img {
+    padding: 5px 5px;
+    width: 50px;
+    height: 40px;
+}
+
+.logos:hover {
+    cursor: pointer;
+}
